@@ -139,7 +139,7 @@
     <Reference Include="Microsoft.VisualBasic" />
     <Reference Include="PresentationCore" />
     <Reference Include="System">
-      <HintPath>C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\System.dll</HintPath>
+      <HintPath>..\..\..\..\..\..\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\System.dll</HintPath>
     </Reference>
     <Reference Include="System.ComponentModel.Composition" />
     <Reference Include="System.ComponentModel.Composition.Registration" />
@@ -233,10 +233,10 @@
     <Compile Include="GVControl.Designer.cs">
       <DependentUpon>GVControl.cs</DependentUpon>
     </Compile>
-    <Compile Include="InfoUser1.Designer.cs">
+    <Compile Include="InfoUser11.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>InfoUser.resx</DependentUpon>
+      <DependentUpon>InfoUser1.resx</DependentUpon>
     </Compile>
     <Compile Include="LuanChuyenTS.cs">
       <SubType>Form</SubType>
@@ -262,10 +262,10 @@
     <Compile Include="LapDSThietBi.Designer.cs">
       <DependentUpon>LapDSThietBi.cs</DependentUpon>
     </Compile>
-    <Compile Include="Phanmemquanlythietbi1.Designer.cs">
+    <Compile Include="Phanmemquanlythietbi11.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>Phanmemquanlythietbi.resx</DependentUpon>
+      <DependentUpon>Phanmemquanlythietbi1.resx</DependentUpon>
     </Compile>
     <Compile Include="QLTTPTN.cs">
       <SubType>Form</SubType>
@@ -413,10 +413,9 @@
     <EmbeddedResource Include="InfoUser.resx">
       <DependentUpon>InfoUser.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="InfoUser.resx">
-      <DependentUpon>InfoUser.cs</DependentUpon>
+    <EmbeddedResource Include="InfoUser1.resx">
       <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>InfoUser1.Designer.cs</LastGenOutput>
+      <LastGenOutput>InfoUser11.Designer.cs</LastGenOutput>
     </EmbeddedResource>
     <EmbeddedResource Include="KiemKe.resx">
       <DependentUpon>KiemKe.cs</DependentUpon>
@@ -433,9 +432,10 @@
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <Compile Include="Properties\Resources.Designer.cs">
+    <Compile Include="Properties\Resources2.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <EmbeddedResource Include="QLTTGV.resx">
       <DependentUpon>QLTTGV.cs</DependentUpon>
@@ -464,15 +464,14 @@
     <EmbeddedResource Include="YCmua.resx">
       <DependentUpon>YCmua.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Phanmemquanlythietbi.resx">
-      <DependentUpon>Phanmemquanlythietbi.cs</DependentUpon>
+    <EmbeddedResource Include="Phanmemquanlythietbi1.resx">
       <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>Phanmemquanlythietbi1.Designer.cs</LastGenOutput>
+      <LastGenOutput>Phanmemquanlythietbi11.Designer.cs</LastGenOutput>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\licenses.licx" />
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <LastGenOutput>Resources2.Designer.cs</LastGenOutput>
       <SubType>Designer</SubType>
     </EmbeddedResource>
     <Compile Include="Properties\Resources.Designer.cs">
