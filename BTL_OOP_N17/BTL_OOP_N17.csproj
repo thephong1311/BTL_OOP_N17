@@ -233,11 +233,6 @@
     <Compile Include="GVControl.Designer.cs">
       <DependentUpon>GVControl.cs</DependentUpon>
     </Compile>
-    <Compile Include="InfoUser11.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>InfoUser1.resx</DependentUpon>
-    </Compile>
     <Compile Include="LuanChuyenTS.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -261,11 +256,6 @@
     </Compile>
     <Compile Include="LapDSThietBi.Designer.cs">
       <DependentUpon>LapDSThietBi.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Phanmemquanlythietbi11.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>Phanmemquanlythietbi1.resx</DependentUpon>
     </Compile>
     <Compile Include="QLTTPTN.cs">
       <SubType>Form</SubType>
@@ -413,10 +403,6 @@
     <EmbeddedResource Include="InfoUser.resx">
       <DependentUpon>InfoUser.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="InfoUser1.resx">
-      <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>InfoUser11.Designer.cs</LastGenOutput>
-    </EmbeddedResource>
     <EmbeddedResource Include="KiemKe.resx">
       <DependentUpon>KiemKe.cs</DependentUpon>
     </EmbeddedResource>
@@ -464,21 +450,6 @@
     <EmbeddedResource Include="YCmua.resx">
       <DependentUpon>YCmua.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Phanmemquanlythietbi1.resx">
-      <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>Phanmemquanlythietbi11.Designer.cs</LastGenOutput>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Properties\licenses.licx" />
-    <EmbeddedResource Include="Properties\Resources.resx">
-      <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>Resources2.Designer.cs</LastGenOutput>
-      <SubType>Designer</SubType>
-    </EmbeddedResource>
-    <Compile Include="Properties\Resources.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DependentUpon>Resources.resx</DependentUpon>
-      <DesignTime>True</DesignTime>
-    </Compile>
     <EmbeddedResource Include="ReportLuanChuyenTS.resx">
       <DependentUpon>ReportLuanChuyenTS.cs</DependentUpon>
     </EmbeddedResource>
